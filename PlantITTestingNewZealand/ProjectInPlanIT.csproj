@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.3.0" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.5.0"><IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+<PrivateAssets>all</PrivateAssets>
+</PackageReference>
+    <PackageReference Include="coverlet.collector" Version="3.1.2" />
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="3.11.0" />
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="NLog" Version="5.0.5" />
+    <PackageReference Include="ExtentReports" Version="4.1.0" />
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects.Core" Version="4.3.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+    <PackageReference Include="Selenium.WebDriver.GeckoDriver" Version="0.32.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="109.0.5414.7400" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.6.0" />
+    <PackageReference Include="Selenium.Support" Version="4.6.0" />
+    <PackageReference Include="IronXL.Excel" Version="2022.11.10251" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="BaseClass\" />
+    <None Remove="DotNetSeleniumExtras.PageObjects" />
+    <None Remove="DotNetSeleniumExtras.WaitHelpers" />
+    <None Remove="PageObjects\" />
+    <None Remove="PageObjects\BaseAbstractPage\" />
+    <None Remove="Utilities\" />
+    <None Remove="NLog" />
+    <None Remove="ExtentReports" />
+    <None Remove="DotNetSeleniumExtras.PageObjects.Core" />
+    <None Remove="System.Configuration.ConfigurationManager" />
+    <None Remove="Selenium.WebDriver.GeckoDriver" />
+    <None Remove="Selenium.WebDriver.ChromeDriver" />
+    <None Remove="Selenium.WebDriver" />
+    <None Remove="Selenium.Support" />
+    <None Remove="IronXL.Excel" />
+    <None Remove="Tests\" />
+    <None Remove="WebHTMLLogs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BaseClass\" />
+    <Folder Include="PageObjects\" />
+    <Folder Include="PageObjects\BaseAbstractPage\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Tests\" />
+    <Folder Include="WebHTMLLogs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="nlog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Utilities\SeleniumTraining.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

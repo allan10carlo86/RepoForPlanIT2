@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/allancarloramos/Projects/PlanITTEsting_Projects/PlanITTestingNewZealand/PlantITTestingNewZealand/PlantITTestingNewZealand/PlantITTestingNewZealand.csproj": {}
+  },
+  "projects": {
+    "/Users/allancarloramos/Projects/PlanITTEsting_Projects/PlanITTestingNewZealand/PlantITTestingNewZealand/PlantITTestingNewZealand/PlantITTestingNewZealand.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/allancarloramos/Projects/PlanITTEsting_Projects/PlanITTestingNewZealand/PlantITTestingNewZealand/PlantITTestingNewZealand/PlantITTestingNewZealand.csproj",
+        "projectName": "PlantITTestingNewZealand",
+        "projectPath": "/Users/allancarloramos/Projects/PlanITTEsting_Projects/PlanITTestingNewZealand/PlantITTestingNewZealand/PlantITTestingNewZealand/PlantITTestingNewZealand.csproj",
+        "packagesPath": "/Users/allancarloramos/.nuget/packages/",
+        "outputPath": "/Users/allancarloramos/Projects/PlanITTEsting_Projects/PlanITTestingNewZealand/PlantITTestingNewZealand/PlantITTestingNewZealand/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/allancarloramos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DotNetSeleniumExtras.PageObjects": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "DotNetSeleniumExtras.PageObjects.Core": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "IronXL.Excel": {
+              "target": "Package",
+              "version": "[2022.11.10251, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[107.0.5304.6200, )"
+            },
+            "Selenium.WebDriver.GeckoDriver": {
+              "target": "Package",
+              "version": "[0.32.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
